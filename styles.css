@@ -1,0 +1,83 @@
+/* Place your CSS styles in this file */
+@font-face{
+    font-family: 'Luminari';
+    font-style: normal;
+    font-weight: normal;
+    src: url('Luminari-Regular.woff') format('woff');
+}
+
+html {
+    height: 80vw;
+}
+
+html {
+    display: table;
+    margin: auto;
+    background-color: black;
+}
+
+body {
+    display: table-cell;
+    vertical-align: top;
+    position: relative;
+
+    background-image: url("parchment.png");
+    background-size:contain;
+    background-repeat:   no-repeat;
+    text-align: center;
+    font-family: "Luminari";
+    font-weight: normal;
+    font-size: 1.8vw;
+    padding-top: 10vw;
+    padding-bottom: 30vw;
+    line-height: 1.5vw;
+
+    width: 90vw
+}
+
+img {
+    height: 18vw;
+    position: absolute;
+    /* width: auto; */
+    top: 35vw;
+    left: 35vw;
+}
+
+.hidden-on-load {
+    display: none;
+}
+
+.fairy1 {
+    clip: rect(0, 10vw, 20vw, 0);
+    margin-left: 4vw;
+}
+
+.fairy2 {
+    clip: rect(0, 30vw, 20vw, 10vw);
+    margin-left: -13vw;
+}
+
+.fairy3 {
+    clip: rect(0, 48vw, 20vw, 28vw);
+    margin-left: -30vw;
+}
+
+.fairy4 {
+    clip: rect(0, 65vw, 20vw, 47vw);
+    margin-left: -47vw;
+}
+
+.fairy5 {
+    clip: rect(0, 84vw, 20vw, 66vw);
+    margin-left: -66vw;
+}
+
+.fairy6 {
+    clip: rect(0, 103vw, 20vw, 85vw);
+    margin-left: -85vw;
+}
+
+.fairy7 {
+    clip: rect(0, 123vw, 20vw, 105vw);
+    margin-left: -105vw;
+}
