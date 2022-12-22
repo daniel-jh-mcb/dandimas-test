@@ -8,76 +8,132 @@
 
 html {
     height: 80vw;
+    overflow-x: hidden;
 }
 
 html {
     display: table;
     margin: auto;
     background-color: black;
+    padding-bottom: 25vw;
 }
 
 body {
     display: table-cell;
     vertical-align: top;
     position: relative;
-
-    background-image: url("parchment.png");
+    background-image: url("images/parchment.png");
     background-size:contain;
-    background-repeat:   no-repeat;
+    background-repeat: no-repeat;
     text-align: center;
     font-family: "Luminari";
     font-weight: normal;
     font-size: 1.8vw;
-    padding-top: 10vw;
+    padding-top: 9vw;
     padding-bottom: 30vw;
     line-height: 1.5vw;
 
-    width: 90vw
+    width: 90vw;
 }
 
-img {
+.fairy {
     height: 18vw;
     position: absolute;
-    /* width: auto; */
     top: 35vw;
-    left: 35vw;
+    left: 36vw;
+}
+
+.gameText {
+    position: absolute;
+    color: white;
+    font-size: 2.5vw;
+}
+
+.sonnetText {
+    font-size: 2.0vw;
+    line-height: 2.5vw;
+}
+
+#actionText {
+    top: 102vw;
+    width: 70vw;
+    left: 9.5vw;
+    padding-bottom: 20vw;
+}
+
+#storyText {
+    top: 70vw;
+    left: 0vw;
+    width: 100%;
+}
+
+#storyText.fairiesVisible {
+    top: 85vw;
+}
+
+#sparkles {
+    position: absolute;
+    top: 80vw;
+    left: 30.5vw;
+    width: 30vw;
+    height: 30vw;
+    clip: rect(0, 28vw, 28vw, 0);
+    cursor: pointer;
+}
+
+.fadeable {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .hidden-on-load {
     display: none;
 }
 
+.fairies {
+    position: absolute;
+    top: 65vw;
+    left: 0vw;
+    width: 90vw;
+    height: auto;
+}
+
 .fairy1 {
     clip: rect(0, 10vw, 20vw, 0);
-    margin-left: 4vw;
+    margin-left: 3vw;
 }
 
 .fairy2 {
     clip: rect(0, 30vw, 20vw, 10vw);
-    margin-left: -13vw;
+    margin-left: -12vw;
 }
 
 .fairy3 {
     clip: rect(0, 48vw, 20vw, 28vw);
-    margin-left: -30vw;
+    margin-left: -29vw;
 }
 
 .fairy4 {
     clip: rect(0, 65vw, 20vw, 47vw);
-    margin-left: -47vw;
+    margin-left: -46.5vw;
 }
 
 .fairy5 {
-    clip: rect(0, 85.5vw, 20vw, 67.5vw);
-    margin-left: -67.5vw;
+    clip: rect(0, 80.5vw, 20vw, 62.5vw);
+    margin-left: -62.5vw;
 }
 
 .fairy6 {
-    clip: rect(0, 103vw, 20vw, 85vw);
-    margin-left: -85vw;
+    clip: rect(0, 95vw, 20vw, 78vw);
+    margin-left: -78vw;
 }
 
 .fairy7 {
-    clip: rect(0, 123vw, 20vw, 105vw);
-    margin-left: -105vw;
+    clip: rect(0, 113vw, 20vw, 95vw);
+    margin-left: -93vw;
 }

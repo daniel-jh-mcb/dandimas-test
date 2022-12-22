@@ -10,17 +10,35 @@
         <link rel="stylesheet" href="styles.css">
 
     </head>
-    <div>
-        <body>
+    <body>
+        <div id="sonnetText1" class="sonnetText fadeable fade"></div>
+        <div id="sonnetText2" class="sonnetText fadeable fade"></div>
+        <div id="sonnetText3" class="sonnetText fadeable fade"></div>
+        <div id="sonnetText4" class="sonnetText fadeable fade"></div>
+        <div id="sonnetText5" class="sonnetText fadeable fade"></div>
+        <div id="sonnetText6" class="sonnetText fadeable fade"></div>
+        <div id="sonnetText7" class="sonnetText fadeable fade"></div>
+        <div id="sonnetText8" class="sonnetText fadeable fade"></div>
+        <div id="nextSonnetText" class="sonnetText fadeable fade"></div>
+        <div id="scrollText" class="fadeable fade">
             <p id="date"></p>
             <h1 id="timeToWait"></h1>
             <p id="moonrises"></p>
             <h1><i>Dandimas!</i></h1>
-            
-            <!-- Load external JavaScript -->
-            <script src="scripts.js"></script>
-            
-        </body>
-        <img class="fairy hidden-on-load" src='fairies/fairies.png'>
-    </div>
+        </div>
+        
+        <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+
+        <img id="fairy" class="fairy fadeable fade hidden-on-load" src='images/fairies.png'>
+
+        <img id="fairies" class="fairies fadeable fade" src="images/fairies.png">
+        <div id="storyText" class="gameText fadeable fade">What's this? The day's fairy is nowhere to be seen!<br></br>Where could she have gone?</div>
+        <div id="actionText" class="gameText fadeable fade"></div>
+        
+
+        <img id="sparkles" class="hidden-on-load fadeable" src='images/sparkles.gif'>
+        
+    </body>
+    <audio loop id="frosti"><source src="audio/frosti.mp3" type="audio/mp3"></audio>
 </html>
