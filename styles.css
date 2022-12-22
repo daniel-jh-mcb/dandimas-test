@@ -1,9 +1,9 @@
 /* Place your CSS styles in this file */
 @font-face{
-    font-family: 'Luminari';
+    font-family: "Luminari-Regular";
     font-style: normal;
-    font-weight: normal;
-    src: url('Luminari-Regular.woff') format('woff');
+    font-weight: bold;
+    src: url('fonts/Luminari-Regular.woff') format('woff');
 }
 
 html {
@@ -26,7 +26,7 @@ body {
     background-size:contain;
     background-repeat: no-repeat;
     text-align: center;
-    font-family: "Luminari";
+    font-family: "Arial";
     font-weight: normal;
     font-size: 1.8vw;
     padding-top: 9vw;
