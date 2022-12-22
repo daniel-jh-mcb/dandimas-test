@@ -2,7 +2,7 @@
 @font-face{
     font-family: "Luminari-Regular";
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     src: url('fonts/Luminari-Regular.woff') format('woff');
 }
 
@@ -26,7 +26,7 @@ body {
     background-size:contain;
     background-repeat: no-repeat;
     text-align: center;
-    font-family: "Arial";
+    font-family: "Luminari-Regular";
     font-weight: normal;
     font-size: 1.8vw;
     padding-top: 9vw;
